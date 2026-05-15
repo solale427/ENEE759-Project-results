@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tailrisk_mp"
+version = "0.1.0"
+description = "Tail-risk / difficulty analysis utilities for motion prediction (AV2, Waymo)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Yaghoubi"}]
+
+# Only list the dependencies the tailrisk_mp package itself imports.
+# Heavy stack (torch / cuda / UniTraj / MTR) is managed by the conda env
+# `tailrisk-mp-cu126` and is NOT a pip dependency here.
+dependencies = [
+    "numpy>=1.23",
+    "pandas>=2.0",
+    "scipy>=1.10",
+    "scikit-learn>=1.3",
+    "matplotlib>=3.7",
+    "pyyaml>=6.0",
+    "imageio>=2.31",
+]
+
+[project.optional-dependencies]
+# Full analysis workflow: notebooks + learned-upper-bound models.
+analysis = [
+    "jupyter>=1.0",
+    "ipykernel>=6.25",
+    "lightgbm>=4.0",
+    "pyarrow>=14.0",
+]
+# Dev tooling.
+dev = [
+    "pytest>=7.4",
+    "ruff>=0.1",
+    "nbstripout>=0.6",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["tailrisk_mp*"]
+
+[tool.setuptools.package-data]
+tailrisk_mp = ["py.typed"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+extend-exclude = ["third_party", "artifacts", "notebooks/archive"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

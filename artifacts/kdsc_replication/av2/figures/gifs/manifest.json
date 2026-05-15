@@ -1,0 +1,102 @@
+{
+  "config": {
+    "dataset": "av2",
+    "split": "val",
+    "view_radius": 70.0,
+    "frame_stride": 2,
+    "fps": 10,
+    "max_frames": 40
+  },
+  "features": [
+    "max_abs_accel",
+    "var_acceleration",
+    "var_speed",
+    "gamma"
+  ],
+  "label_map": {
+    "1": "aggressive",
+    "0": "normal"
+  },
+  "gifs": [
+    {
+      "label": "normal",
+      "rank": 0,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/kdsc_replication/av2/figures/gifs/normal/normal_kdsc_av2_scenario=9f8e22b9-2eae-4de1-8816-3517b3101a71_center=43633.gif",
+      "scenario_id": "9f8e22b9-2eae-4de1-8816-3517b3101a71",
+      "center_objects_id": "43633",
+      "extremeness": 20.554266646125846
+    },
+    {
+      "label": "normal",
+      "rank": 1,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/kdsc_replication/av2/figures/gifs/normal/normal_kdsc_av2_scenario=3b9b45c5-023f-40e8-83de-0743cc8faee7_center=59219.gif",
+      "scenario_id": "3b9b45c5-023f-40e8-83de-0743cc8faee7",
+      "center_objects_id": "59219",
+      "extremeness": 20.470399836269785
+    },
+    {
+      "label": "normal",
+      "rank": 2,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/kdsc_replication/av2/figures/gifs/normal/normal_kdsc_av2_scenario=a912275c-830e-4e0f-b7bf-ee461d60d269_center=154405.gif",
+      "scenario_id": "a912275c-830e-4e0f-b7bf-ee461d60d269",
+      "center_objects_id": "154405",
+      "extremeness": 20.37274160302002
+    },
+    {
+      "label": "normal",
+      "rank": 3,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/kdsc_replication/av2/figures/gifs/normal/normal_kdsc_av2_scenario=d974b9f7-9ed2-4671-adcd-0c54a711665b_center=36162.gif",
+      "scenario_id": "d974b9f7-9ed2-4671-adcd-0c54a711665b",
+      "center_objects_id": "36162",
+      "extremeness": 18.723707649113987
+    },
+    {
+      "label": "normal",
+      "rank": 4,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/kdsc_replication/av2/figures/gifs/normal/normal_kdsc_av2_scenario=06f616af-3a2e-4607-8890-20b3cc976e6f_center=51659.gif",
+      "scenario_id": "06f616af-3a2e-4607-8890-20b3cc976e6f",
+      "center_objects_id": "51659",
+      "extremeness": 20.514181594216566
+    },
+    {
+      "label": "aggressive",
+      "rank": 0,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/kdsc_replication/av2/figures/gifs/aggressive/aggressive_kdsc_av2_scenario=c7dc1311-62ca-4c11-b5de-20d6b451bfe3_center=509.gif",
+      "scenario_id": "c7dc1311-62ca-4c11-b5de-20d6b451bfe3",
+      "center_objects_id": "509",
+      "extremeness": 16.052780419055903
+    },
+    {
+      "label": "aggressive",
+      "rank": 1,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/kdsc_replication/av2/figures/gifs/aggressive/aggressive_kdsc_av2_scenario=03bfd760-d8d9-46f3-aa16-885efb85cf16_center=89470.gif",
+      "scenario_id": "03bfd760-d8d9-46f3-aa16-885efb85cf16",
+      "center_objects_id": "89470",
+      "extremeness": 20.096177386706906
+    },
+    {
+      "label": "aggressive",
+      "rank": 2,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/kdsc_replication/av2/figures/gifs/aggressive/aggressive_kdsc_av2_scenario=acc7df2d-82d5-4e8b-be90-fcfadab2b44f_center=59580.gif",
+      "scenario_id": "acc7df2d-82d5-4e8b-be90-fcfadab2b44f",
+      "center_objects_id": "59580",
+      "extremeness": 1.753127264446496
+    },
+    {
+      "label": "aggressive",
+      "rank": 3,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/kdsc_replication/av2/figures/gifs/aggressive/aggressive_kdsc_av2_scenario=518fd970-ee38-4bd7-a552-6c48558365cd_center=62225.gif",
+      "scenario_id": "518fd970-ee38-4bd7-a552-6c48558365cd",
+      "center_objects_id": "62225",
+      "extremeness": 16.592222877040676
+    },
+    {
+      "label": "aggressive",
+      "rank": 4,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/kdsc_replication/av2/figures/gifs/aggressive/aggressive_kdsc_av2_scenario=3200056a-a13d-4e10-81e2-34f2dc9a6afd_center=8948.gif",
+      "scenario_id": "3200056a-a13d-4e10-81e2-34f2dc9a6afd",
+      "center_objects_id": "8948",
+      "extremeness": 16.397068231578302
+    }
+  ]
+}

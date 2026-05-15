@@ -1,0 +1,205 @@
+{
+  "dataset": "av2",
+  "n_joined": 12387,
+  "aggressive_share": {
+    "ours": 0.18317591022846533,
+    "kdsc": 0.0,
+    "tdbm": 8.07297973682086e-05
+  },
+  "rank_correlations": [
+    {
+      "pair": "ours_vs_kdsc",
+      "spearman_rho": 0.25492029496044255,
+      "spearman_pvalue": 5.552273859693639e-183,
+      "kendall_tau": 0.1693367022171272,
+      "kendall_pvalue": 9.059875412092394e-176
+    },
+    {
+      "pair": "ours_vs_tdbm",
+      "spearman_rho": 0.04870836539740119,
+      "spearman_pvalue": 5.835749801365272e-08,
+      "kendall_tau": 0.032228935703014716,
+      "kendall_pvalue": 7.460678759250853e-08
+    },
+    {
+      "pair": "kdsc_vs_tdbm",
+      "spearman_rho": -0.018297994740928858,
+      "spearman_pvalue": 0.04170267539044781,
+      "kendall_tau": -0.012256192746729328,
+      "kendall_pvalue": 0.040773668763669536
+    }
+  ],
+  "topk_overlap": [
+    {
+      "k_pct": 5,
+      "pair": "ours_vs_kdsc",
+      "size_a": 620,
+      "size_b": 620,
+      "intersection": 55,
+      "jaccard": 0.046413502109704644,
+      "containment_ours_in_kdsc": 0.08870967741935484,
+      "containment_kdsc_in_ours": 0.08870967741935484,
+      "containment_ours_in_tdbm": NaN,
+      "containment_tdbm_in_ours": NaN,
+      "containment_kdsc_in_tdbm": NaN,
+      "containment_tdbm_in_kdsc": NaN
+    },
+    {
+      "k_pct": 5,
+      "pair": "ours_vs_tdbm",
+      "size_a": 620,
+      "size_b": 620,
+      "intersection": 48,
+      "jaccard": 0.040268456375838924,
+      "containment_ours_in_kdsc": NaN,
+      "containment_kdsc_in_ours": NaN,
+      "containment_ours_in_tdbm": 0.07741935483870968,
+      "containment_tdbm_in_ours": 0.07741935483870968,
+      "containment_kdsc_in_tdbm": NaN,
+      "containment_tdbm_in_kdsc": NaN
+    },
+    {
+      "k_pct": 5,
+      "pair": "kdsc_vs_tdbm",
+      "size_a": 620,
+      "size_b": 620,
+      "intersection": 36,
+      "jaccard": 0.029900332225913623,
+      "containment_ours_in_kdsc": NaN,
+      "containment_kdsc_in_ours": NaN,
+      "containment_ours_in_tdbm": NaN,
+      "containment_tdbm_in_ours": NaN,
+      "containment_kdsc_in_tdbm": 0.05806451612903226,
+      "containment_tdbm_in_kdsc": 0.05806451612903226
+    },
+    {
+      "k_pct": 10,
+      "pair": "ours_vs_kdsc",
+      "size_a": 1239,
+      "size_b": 1239,
+      "intersection": 230,
+      "jaccard": 0.10231316725978648,
+      "containment_ours_in_kdsc": 0.18563357546408393,
+      "containment_kdsc_in_ours": 0.18563357546408393,
+      "containment_ours_in_tdbm": NaN,
+      "containment_tdbm_in_ours": NaN,
+      "containment_kdsc_in_tdbm": NaN,
+      "containment_tdbm_in_kdsc": NaN
+    },
+    {
+      "k_pct": 10,
+      "pair": "ours_vs_tdbm",
+      "size_a": 1239,
+      "size_b": 1239,
+      "intersection": 184,
+      "jaccard": 0.08020924149956409,
+      "containment_ours_in_kdsc": NaN,
+      "containment_kdsc_in_ours": NaN,
+      "containment_ours_in_tdbm": 0.14850686037126715,
+      "containment_tdbm_in_ours": 0.14850686037126715,
+      "containment_kdsc_in_tdbm": NaN,
+      "containment_tdbm_in_kdsc": NaN
+    },
+    {
+      "k_pct": 10,
+      "pair": "kdsc_vs_tdbm",
+      "size_a": 1239,
+      "size_b": 1239,
+      "intersection": 141,
+      "jaccard": 0.06033376123234917,
+      "containment_ours_in_kdsc": NaN,
+      "containment_kdsc_in_ours": NaN,
+      "containment_ours_in_tdbm": NaN,
+      "containment_tdbm_in_ours": NaN,
+      "containment_kdsc_in_tdbm": 0.11380145278450363,
+      "containment_tdbm_in_kdsc": 0.11380145278450363
+    },
+    {
+      "k_pct": 20,
+      "pair": "ours_vs_kdsc",
+      "size_a": 2478,
+      "size_b": 2478,
+      "intersection": 966,
+      "jaccard": 0.24210526315789474,
+      "containment_ours_in_kdsc": 0.3898305084745763,
+      "containment_kdsc_in_ours": 0.3898305084745763,
+      "containment_ours_in_tdbm": NaN,
+      "containment_tdbm_in_ours": NaN,
+      "containment_kdsc_in_tdbm": NaN,
+      "containment_tdbm_in_kdsc": NaN
+    },
+    {
+      "k_pct": 20,
+      "pair": "ours_vs_tdbm",
+      "size_a": 2478,
+      "size_b": 2478,
+      "intersection": 619,
+      "jaccard": 0.14272538621166705,
+      "containment_ours_in_kdsc": NaN,
+      "containment_kdsc_in_ours": NaN,
+      "containment_ours_in_tdbm": 0.24979822437449556,
+      "containment_tdbm_in_ours": 0.24979822437449556,
+      "containment_kdsc_in_tdbm": NaN,
+      "containment_tdbm_in_kdsc": NaN
+    },
+    {
+      "k_pct": 20,
+      "pair": "kdsc_vs_tdbm",
+      "size_a": 2478,
+      "size_b": 2478,
+      "intersection": 538,
+      "jaccard": 0.12177455862381167,
+      "containment_ours_in_kdsc": NaN,
+      "containment_kdsc_in_ours": NaN,
+      "containment_ours_in_tdbm": NaN,
+      "containment_tdbm_in_ours": NaN,
+      "containment_kdsc_in_tdbm": 0.21711057304277642,
+      "containment_tdbm_in_kdsc": 0.21711057304277642
+    },
+    {
+      "k_pct": 30,
+      "pair": "ours_vs_kdsc",
+      "size_a": 3716,
+      "size_b": 3716,
+      "intersection": 2070,
+      "jaccard": 0.38604998135024243,
+      "containment_ours_in_kdsc": 0.5570505920344456,
+      "containment_kdsc_in_ours": 0.5570505920344456,
+      "containment_ours_in_tdbm": NaN,
+      "containment_tdbm_in_ours": NaN,
+      "containment_kdsc_in_tdbm": NaN,
+      "containment_tdbm_in_kdsc": NaN
+    },
+    {
+      "k_pct": 30,
+      "pair": "ours_vs_tdbm",
+      "size_a": 3716,
+      "size_b": 3716,
+      "intersection": 1271,
+      "jaccard": 0.20629767894822268,
+      "containment_ours_in_kdsc": NaN,
+      "containment_kdsc_in_ours": NaN,
+      "containment_ours_in_tdbm": 0.34203444564047364,
+      "containment_tdbm_in_ours": 0.34203444564047364,
+      "containment_kdsc_in_tdbm": NaN,
+      "containment_tdbm_in_kdsc": NaN
+    },
+    {
+      "k_pct": 30,
+      "pair": "kdsc_vs_tdbm",
+      "size_a": 3716,
+      "size_b": 3716,
+      "intersection": 1199,
+      "jaccard": 0.19236322798010588,
+      "containment_ours_in_kdsc": NaN,
+      "containment_kdsc_in_ours": NaN,
+      "containment_ours_in_tdbm": NaN,
+      "containment_tdbm_in_ours": NaN,
+      "containment_kdsc_in_tdbm": 0.32265877287405814,
+      "containment_tdbm_in_kdsc": 0.32265877287405814
+    }
+  ],
+  "topk_focus_k_pct": 10,
+  "topk_focus_feature_stats": [
+    {
+      

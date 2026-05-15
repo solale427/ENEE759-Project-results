@@ -1,0 +1,22 @@
+{
+  "dataset": "av2",
+  "features": [
+    "max_abs_accel",
+    "var_acceleration",
+    "var_speed",
+    "gamma"
+  ],
+  "linkage": "ward",
+  "n_train": 43696,
+  "n_val": 21809,
+  "fit_subsample": 20000,
+  "silhouette": 0.9274302646345561,
+  "davies_bouldin": 0.5761434981530329,
+  "calinski_harabasz": 26237.61422318512,
+  "label_map": {
+    "1": "aggressive",
+    "0": "normal"
+  },
+  "aggressive_share_train": 0.00295221530574881,
+  "aggressive_share_val": 0.0038516208904580676
+}

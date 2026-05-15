@@ -1,0 +1,117 @@
+{
+  "config": {
+    "dataset": "av2",
+    "split": "val",
+    "label_col": "tdbm_raw_style_label",
+    "view_radius": 70.0,
+    "frame_stride": 2,
+    "fps": 10,
+    "max_frames": 40
+  },
+  "gifs": [
+    {
+      "label": "Aggressive",
+      "rank": 0,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/tdbm_replication/av2/figures/gifs/aggressive/aggressive_tdbm_av2_scenario=76bfcc82-0598-4e1d-a434-3a2b237813e6_center=10774.gif",
+      "scenario_id": "76bfcc82-0598-4e1d-a434-3a2b237813e6",
+      "center_objects_id": "10774",
+      "margin": 93.88319396972656
+    },
+    {
+      "label": "Aggressive",
+      "rank": 1,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/tdbm_replication/av2/figures/gifs/aggressive/aggressive_tdbm_av2_scenario=8628c1e9-f333-4ff2-bf10-f43ad8a5e1a3_center=25759.gif",
+      "scenario_id": "8628c1e9-f333-4ff2-bf10-f43ad8a5e1a3",
+      "center_objects_id": "25759",
+      "margin": 3.4808778762817383
+    },
+    {
+      "label": "Aggressive",
+      "rank": 2,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/tdbm_replication/av2/figures/gifs/aggressive/aggressive_tdbm_av2_scenario=909572a1-9d3d-4917-9297-863506e0f833_center=95250.gif",
+      "scenario_id": "909572a1-9d3d-4917-9297-863506e0f833",
+      "center_objects_id": "95250",
+      "margin": 36.2958984375
+    },
+    {
+      "label": "Careful",
+      "rank": 0,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/tdbm_replication/av2/figures/gifs/careful/careful_tdbm_av2_scenario=848f757b-59b7-467b-8c4a-e5c04d8d8e43_center=92990.gif",
+      "scenario_id": "848f757b-59b7-467b-8c4a-e5c04d8d8e43",
+      "center_objects_id": "92990",
+      "margin": 36.948028564453125
+    },
+    {
+      "label": "Careful",
+      "rank": 1,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/tdbm_replication/av2/figures/gifs/careful/careful_tdbm_av2_scenario=9beb51ac-620b-45cd-bb07-0acd3579e0e1_center=104696.gif",
+      "scenario_id": "9beb51ac-620b-45cd-bb07-0acd3579e0e1",
+      "center_objects_id": "104696",
+      "margin": 371.5506591796875
+    },
+    {
+      "label": "Careful",
+      "rank": 2,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/tdbm_replication/av2/figures/gifs/careful/careful_tdbm_av2_scenario=463bfeb4-a258-4c0e-a789-84ce7284665c_center=47927.gif",
+      "scenario_id": "463bfeb4-a258-4c0e-a789-84ce7284665c",
+      "center_objects_id": "47927",
+      "margin": 374.9119873046875
+    },
+    {
+      "label": "Careful",
+      "rank": 3,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/tdbm_replication/av2/figures/gifs/careful/careful_tdbm_av2_scenario=66276217-5141-412a-b8b6-0dc471f3bf63_center=141926.gif",
+      "scenario_id": "66276217-5141-412a-b8b6-0dc471f3bf63",
+      "center_objects_id": "141926",
+      "margin": 86.91644287109375
+    },
+    {
+      "label": "Careful",
+      "rank": 4,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/tdbm_replication/av2/figures/gifs/careful/careful_tdbm_av2_scenario=9a98713b-137e-4b8d-add9-c79bf23c87f4_center=657.gif",
+      "scenario_id": "9a98713b-137e-4b8d-add9-c79bf23c87f4",
+      "center_objects_id": "657",
+      "margin": 261.2867431640625
+    },
+    {
+      "label": "Timid",
+      "rank": 0,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/tdbm_replication/av2/figures/gifs/timid/timid_tdbm_av2_scenario=7e821d5b-736d-4ebc-9edd-846fd0799132_center=139053.gif",
+      "scenario_id": "7e821d5b-736d-4ebc-9edd-846fd0799132",
+      "center_objects_id": "139053",
+      "margin": 15.284469604492188
+    },
+    {
+      "label": "Timid",
+      "rank": 1,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/tdbm_replication/av2/figures/gifs/timid/timid_tdbm_av2_scenario=c25feaae-6370-48e7-9623-7f711b2ac1d2_center=179577.gif",
+      "scenario_id": "c25feaae-6370-48e7-9623-7f711b2ac1d2",
+      "center_objects_id": "179577",
+      "margin": 4.419422149658203
+    },
+    {
+      "label": "Timid",
+      "rank": 2,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/tdbm_replication/av2/figures/gifs/timid/timid_tdbm_av2_scenario=06731c60-8951-4075-8ec8-64cbe8c92e9e_center=18048.gif",
+      "scenario_id": "06731c60-8951-4075-8ec8-64cbe8c92e9e",
+      "center_objects_id": "18048",
+      "margin": 10.960580825805664
+    },
+    {
+      "label": "Timid",
+      "rank": 3,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/tdbm_replication/av2/figures/gifs/timid/timid_tdbm_av2_scenario=5c84bc2f-57d5-4cff-8e20-fb0c543e5298_center=9164.gif",
+      "scenario_id": "5c84bc2f-57d5-4cff-8e20-fb0c543e5298",
+      "center_objects_id": "9164",
+      "margin": 2.250579833984375
+    },
+    {
+      "label": "Timid",
+      "rank": 4,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/tdbm_replication/av2/figures/gifs/timid/timid_tdbm_av2_scenario=331c1f76-fdc6-4ee2-a6b5-78286f3ef3d3_center=56969.gif",
+      "scenario_id": "331c1f76-fdc6-4ee2-a6b5-78286f3ef3d3",
+      "center_objects_id": "56969",
+      "margin": 7.362735748291016
+    }
+  ]
+}

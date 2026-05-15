@@ -1,0 +1,4 @@
+,accuracy,cohen_kappa,jaccard_aggressive
+ours_vs_kdsc,0.817,0.0,0.0
+ours_vs_tdbm,0.817,0.001,0.0
+kdsc_vs_tdbm,1.0,0.0,0.0

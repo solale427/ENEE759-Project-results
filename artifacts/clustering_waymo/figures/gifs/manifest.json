@@ -1,0 +1,106 @@
+{
+  "config": {
+    "dataset": "waymo",
+    "split": "",
+    "view_radius": 70.0,
+    "frame_stride": 2,
+    "fps": 10,
+    "max_frames": 40
+  },
+  "features": [
+    "hard_brake_count",
+    "max_abs_lat_accel",
+    "heading_change_abs",
+    "lateral_g_spike_count",
+    "gamma",
+    "max_abs_lat_jerk",
+    "avg_speed",
+    "max_abs_heading_rate"
+  ],
+  "label_map": {
+    "0": "aggressive",
+    "1": "normal"
+  },
+  "gifs": [
+    {
+      "label": "normal",
+      "rank": 0,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/clustering_waymo/figures/gifs/normal/normal_waymo_senario=a790cb3dd422d99b_center=2316.gif",
+      "scenario_id": "a790cb3dd422d99b",
+      "center_objects_id": "2316",
+      "extremeness": 1.143668430686939
+    },
+    {
+      "label": "normal",
+      "rank": 1,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/clustering_waymo/figures/gifs/normal/normal_waymo_senario=d7095f4fdcf41464_center=1084.gif",
+      "scenario_id": "d7095f4fdcf41464",
+      "center_objects_id": "1084",
+      "extremeness": 0.8578541693996442
+    },
+    {
+      "label": "normal",
+      "rank": 2,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/clustering_waymo/figures/gifs/normal/normal_waymo_senario=e84de6cc470fa742_center=374.gif",
+      "scenario_id": "e84de6cc470fa742",
+      "center_objects_id": "374",
+      "extremeness": 2.3675876388191703
+    },
+    {
+      "label": "normal",
+      "rank": 3,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/clustering_waymo/figures/gifs/normal/normal_waymo_senario=2659c7d4cd93ed88_center=1367.gif",
+      "scenario_id": "2659c7d4cd93ed88",
+      "center_objects_id": "1367",
+      "extremeness": 2.191017496419649
+    },
+    {
+      "label": "normal",
+      "rank": 4,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/clustering_waymo/figures/gifs/normal/normal_waymo_senario=e20b619474f6bdcb_center=496.gif",
+      "scenario_id": "e20b619474f6bdcb",
+      "center_objects_id": "496",
+      "extremeness": 1.3563993211581433
+    },
+    {
+      "label": "aggressive",
+      "rank": 0,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/clustering_waymo/figures/gifs/aggressive/aggressive_waymo_senario=7dfa54093ba7c8c8_center=2415.gif",
+      "scenario_id": "7dfa54093ba7c8c8",
+      "center_objects_id": "2415",
+      "extremeness": 2.222840527626322
+    },
+    {
+      "label": "aggressive",
+      "rank": 1,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/clustering_waymo/figures/gifs/aggressive/aggressive_waymo_senario=f086507e3bc21148_center=1542.gif",
+      "scenario_id": "f086507e3bc21148",
+      "center_objects_id": "1542",
+      "extremeness": 1.3601910845853027
+    },
+    {
+      "label": "aggressive",
+      "rank": 2,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/clustering_waymo/figures/gifs/aggressive/aggressive_waymo_senario=6f40aed60f315675_center=1130.gif",
+      "scenario_id": "6f40aed60f315675",
+      "center_objects_id": "1130",
+      "extremeness": 1.942627081295547
+    },
+    {
+      "label": "aggressive",
+      "rank": 3,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/clustering_waymo/figures/gifs/aggressive/aggressive_waymo_senario=ea68b517d6e49a4_center=1302.gif",
+      "scenario_id": "ea68b517d6e49a4",
+      "center_objects_id": "1302",
+      "extremeness": 2.293734265511371
+    },
+    {
+      "label": "aggressive",
+      "rank": 4,
+      "gif": "/fs/nexus-projects/pc_driving/yaghoubi/tail-risk-motion-prediction/artifacts/clustering_waymo/figures/gifs/aggressive/aggressive_waymo_senario=c4aa9473515f3ef0_center=323.gif",
+      "scenario_id": "c4aa9473515f3ef0",
+      "center_objects_id": "323",
+      "extremeness": 0.1803643058322364
+    }
+  ]
+}

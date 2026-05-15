@@ -1,0 +1,21 @@
+{
+  "silhouette": 0.501023916321481,
+  "davies_bouldin": 1.1284591140365008,
+  "calinski_harabasz": 12803.1290793034,
+  "n_train": 24689,
+  "n_val": 12387,
+  "features": [
+    "max_abs_lat_accel",
+    "gamma",
+    "hard_brake_count",
+    "max_abs_lat_jerk",
+    "max_abs_heading_rate",
+    "lateral_g_spike_count",
+    "displacement",
+    "heading_change_abs"
+  ],
+  "label_map": {
+    "0": "aggressive",
+    "1": "normal"
+  }
+}

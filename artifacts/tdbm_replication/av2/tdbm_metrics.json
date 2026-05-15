@@ -1,0 +1,32 @@
+{
+  "dataset": "av2",
+  "split": "val",
+  "n_rows": 21809,
+  "n_scenarios": 21809,
+  "scenarios_skipped": {
+    "no_key": 0,
+    "read_fail": 0,
+    "center_missing": 0
+  },
+  "no_neighbor_default_rate": 0.0,
+  "raw_class_counts": {
+    "Careful": 21687,
+    "Timid": 119,
+    "Aggressive": 3
+  },
+  "binary_counts": {
+    "normal": 21806,
+    "aggressive": 3
+  },
+  "aggressive_share": 0.000137557888944931,
+  "paper_weights": [
+    [
+      -2.5799999237060547,
+      -1.6699999570846558,
+      -1.9900000095367432,
+      1.3899999856948853,
+      1.2699999809265137,
+      0.6100000143051147
+    ]
+  ]
+}
